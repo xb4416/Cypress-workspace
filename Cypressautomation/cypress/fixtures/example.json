@@ -1,0 +1,10 @@
+{
+  "name": "Krishankant",
+  "email":"kksingh.kksingh@gmail.com",
+  "password": "ABC123",
+  "gender": "Male",
+  "dob":"1988-12-13",
+  "productName": ["Nokia Edge", "Blackberry"],
+  "country":"india"
+  
+}
