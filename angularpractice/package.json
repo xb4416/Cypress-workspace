@@ -1,0 +1,19 @@
+{
+  "name": "cypresspratic",
+  "version": "1.0.0",
+  "description": "testing the angulor website end to end",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^8.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xb4416/Cypress-workspace/angularpractice/"
+  },
+  "author": "Krishankant",
+  "license": "ISC"
+}
