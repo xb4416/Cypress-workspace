@@ -1,6 +1,8 @@
 {
-    "env":
-    {
-        "url" :"https://rahulshettyacademy.com"
-    }
+  "reporter": "mochawesome",
+  "env": {
+    "url": "https://rahulshettyacademy.com"
+  },
+  "projectId": "7o156i"
+
 }
