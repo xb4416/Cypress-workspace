@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-09-14T09:25:59.946Z",
-    "end": "2021-09-14T09:26:13.503Z",
-    "duration": 13557,
+    "start": "2021-09-14T11:33:23.702Z",
+    "end": "2021-09-14T11:33:38.018Z",
+    "duration": 14316,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "c8a61bca-491f-4489-869b-48b061118c97",
+      "uuid": "7c3155c6-55ff-4194-9ba9-2f93296e2925",
       "title": "",
       "fullFile": "cypress/integration/angularpractice/E2E.js",
       "file": "cypress/integration/angularpractice/E2E.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "dd7d4d79-b94e-4345-bd2c-b384b2a279f2",
+          "uuid": "33fb8782-db27-4533-a995-846dc526a7fa",
           "title": "angularpractice end to end framework test",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Vearifying the homepage of data and functionality",
               "fullTitle": "angularpractice end to end framework test Vearifying the homepage of data and functionality",
               "timedOut": null,
-              "duration": 6301,
+              "duration": 9994,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "const homepage = new _Homepage.default();\nhomepage.getName().type('krishankant');\nhomepage.getName().should('have.attr', 'minlength', '2');\nhomepage.getEmail().type('kksinghg.kksingh@gmail.com');\nhomepage.getPassword().type('abc123');\nhomepage.getGender('Male').should('have.value', 'Male');\nhomepage.getStudent().check().should('be.checked');\nhomepage.getEnterpreneur().should('be.disabled');\nhomepage.getDOB().type('1988-12-13');\nhomepage.getSubmit().click();\nhomepage.getMessage().then(message => {\n  const m1 = message.text();\n  if (m1.includes('Success! The Form has been submitted successfully!')) {\n    cy.log('Test Passed');\n  } //var newmessge=m1.split(\".\")\n  //newmessge[0].should('contain','Success! The Form has been submitted successfully!')\n});",
               "err": {},
-              "uuid": "5abb77e6-988e-4257-9498-529ece45bf14",
-              "parentUUID": "dd7d4d79-b94e-4345-bd2c-b384b2a279f2",
+              "uuid": "aad4bb06-0f0f-488e-bc84-493683d1a163",
+              "parentUUID": "33fb8782-db27-4533-a995-846dc526a7fa",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "5abb77e6-988e-4257-9498-529ece45bf14"
+            "aad4bb06-0f0f-488e-bc84-493683d1a163"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 6301,
+          "duration": 9994,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
