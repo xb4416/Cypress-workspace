@@ -10,7 +10,13 @@
     "mochawesome": "6.2.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules\\.bin\\cypress run ",
+    "headTest": "npm run test -- --headed",
+    "chromeTest": "npm run test -- --browser chrome",
+    "open": "./node_modules\\.bin\\cypress open ",
+    "dashbord": "npm run test -- --record --key 2e57ca0d-b57d-4608-9544-e8f32db78da6"
+
+
   },
   "repository": {
     "type": "git",
