@@ -12,7 +12,7 @@
   "scripts": {
     "test": "./node_modules\\.bin\\cypress run ",
     "headTest": "npm run test -- --headed",
-    "chromeTest": "npm run test -- --browser chrome",
+    "chromeTest": "npm run test -- --browser chrome --headed",
     "open": "./node_modules\\.bin\\cypress open ",
     "dashbord": "npm run test -- --record --key 2e57ca0d-b57d-4608-9544-e8f32db78da6"
 
