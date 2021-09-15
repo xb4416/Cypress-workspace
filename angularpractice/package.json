@@ -20,6 +20,12 @@
 
 
   },
+  "retries": {
+    
+    "runMode": 1,
+
+    "openMode": 0
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/xb4416/Cypress-workspace/angularpractice/"
